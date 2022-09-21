@@ -2,12 +2,10 @@
   <div class="bg-white">
     <div class="pt-6">
 
-
-
       <!-- Image gallery -->
       <div class="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
         <div class="aspect-w-3 aspect-h-4 hidden overflow-hidden rounded-lg lg:block">
-          <img :src="product.images[0].src" :alt="product.images[0].alt"
+          <img v-bind:src="product.images[0].src" :alt="product.images[0].alt"
             class="h-full w-full object-cover object-center" />
         </div>
 
@@ -43,17 +41,16 @@
 </template>
   
 <script setup>
+  import Photo from '../assets/img/about-test.jpg'
 
 const product = {
   name: 'Morrow Manor Photography',
 
   images: [
     {
-      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg',
-      alt: 'Two each of gray, white, and black shirts laying flat.',
-    },
-
-  
+      src: Photo,
+      alt: 'Portrait of Austin and Marissa',
+    },  
   ],
   
   details:
