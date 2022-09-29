@@ -33,7 +33,7 @@
         </p>
       
     </div>
-    <div class="text-center p-4 bg-gray-200">
+    <div class="text-center text-xs p-4 bg-gray-200">
       © 2022 Copyright Morrow Manor Photography </div>
   </footer>
 </template>
