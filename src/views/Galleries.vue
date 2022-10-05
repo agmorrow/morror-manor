@@ -15,7 +15,7 @@
                   {{ callout.name }}
                 </a>
               </h3>
-              <p class="text-base font-semibold text-gray-900">{{ callout.description }}</p>
+              <p class="mb-8 text-base font-semibold text-gray-900">{{ callout.description }}</p>
             </div>
           </div>
         </div>
