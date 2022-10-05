@@ -13,7 +13,7 @@
           </a>
           @morrowmanorphoto
         </p>
-      <p class="flex items-center justify-center md:justify-start">
+      <!-- <p class="flex items-center justify-center md:justify-start">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="w-4 mr-4" role="img"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <path fill="currentColor"
@@ -21,7 +21,7 @@
             </path>
           </svg>
           720-985-9184
-        </p>
+        </p> -->
         <p class="flex items-center justify-center md:justify-start">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="w-4 mr-4" role="img"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
