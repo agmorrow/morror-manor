@@ -26,22 +26,22 @@
   <script setup>
   const callouts = [
     {
-      name: 'mountain engagement shoot',
-      description: 'polly & xavier',
+      name: 'polly & xavier',
+      description: 'mountain engagement shoot',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
       href: '#',
     },
     {
-      name: 'beautiful wedding',
-      description: 'donavyn & jessica',
+      name: 'donavyn & jessica',
+      description: 'beautiful wedding',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
       href: '#',
     },
     {
-      name: 'perfect airbnb wedding',
-      description: 'jadyn & payton',
+      name: 'jadyn & payton',
+      description: 'perfect airbnb wedding',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
       href: '#',
