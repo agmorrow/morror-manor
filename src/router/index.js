@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Galleries from '../views/Galleries.vue'
 import Contact from '../views/Contact.vue'
+import Mountain from '../views/galleries/MountainShoot.vue'
 
 const routes = [
   { 
@@ -18,7 +19,14 @@ const routes = [
   {
     path: '/galleries',
     name: 'Galleries',
-    component: Galleries
+    component: Galleries,
+    children: [
+      { 
+        path: '/polly-xavier',
+        name: 'Polly Xavier',
+        component: Mountain,
+      }
+    ]
   },
   {
     path: '/contact',
