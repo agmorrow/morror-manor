@@ -1,15 +1,15 @@
 <template>
   <div class="bg-white">
     <div class="pt-6">
-  <div class="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-            <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{{ about.pageHeading }}</h1>
-          </div>
-      <div class="w-full">
-        <img :src="about.images[0].src" :alt="about.images[0].alt" class="w-full"/>
+      <div class="text-center lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
+        <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{{ about.pageHeading }}</h1>
       </div>
-     
+      <div class="w-full">
+        <img :src="about.images[0].src" :alt="about.images[0].alt" class="w-full" />
+      </div>
+
       <div class="mx-auto my-20 max-w-2xl sm:px-6 lg:max-w-5xl lg:px-8">
-       
+
         <!-- About -->
         <div
           class="text-center mx-auto max-w-2xl px-4 pt-10 pb-16 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pt-16 lg:pb-24">
@@ -18,7 +18,7 @@
           </div>
 
           <div class="py-10 lg:col-span-2 lg:col-start-1 lg:border-r lg:border-gray-200 lg:pt-6 lg:pb-16 lg:pr-8">
-           
+
             <!-- Description -->
             <div>
 
@@ -33,11 +33,11 @@
             </div>
           </div>
         </div>
-         <!-- Image -->
-         <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
-         <img :src="about.images[1].src" :alt="about.images[1].alt" class="w-full"/>
-         <img :src="about.images[2].src" :alt="about.images[2].alt" class="w-full"/>
-         <img :src="about.images[3].src" :alt="about.images[3].alt" class="w-full"/>
+        <!-- Image -->
+        <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+          <img :src="about.images[1].src" :alt="about.images[1].alt" class="w-full" />
+          <img :src="about.images[2].src" :alt="about.images[2].alt" class="w-full" />
+          <img :src="about.images[3].src" :alt="about.images[3].alt" class="w-full" />
         </div>
         <h3>photos by @rainechism</h3>
       </div>
