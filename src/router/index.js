@@ -20,13 +20,6 @@ const routes = [
     path: '/galleries',
     name: 'Galleries',
     component: Galleries,
-    children: [
-      { 
-        path: '/polly-xavier',
-        name: 'Polly Xavier',
-        component: Mountain,
-      }
-    ]
   },
   {
     path: '/contact',
