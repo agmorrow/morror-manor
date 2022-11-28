@@ -3,7 +3,6 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Galleries from '../views/Galleries.vue'
 import Contact from '../views/Contact.vue'
-import Pollyandxavior from '../views/galleries/Pollyandxavior.vue'
 
 
 const routes = [
@@ -20,6 +19,7 @@ const routes = [
   {
     path: '/galleries',
     name: 'Galleries',
+    component: Galleries
   },
   {
     path: '/contact',
