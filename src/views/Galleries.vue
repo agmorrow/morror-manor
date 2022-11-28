@@ -32,7 +32,7 @@ const callouts = [
     description: 'mountain engagement shoot',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
     imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-    href: "#",
+    href: '/polly-xavier',
   },
   {
     name: 'donavyn & jessica',

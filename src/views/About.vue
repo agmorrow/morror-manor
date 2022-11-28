@@ -35,9 +35,7 @@
         </div>
         <!-- Image -->
         <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
-          <router-link to="/pollyandxavior">
           <img :src="about.images[1].src" :alt="about.images[1].alt" class="w-full" />
-        </router-link>
           <img :src="about.images[2].src" :alt="about.images[2].alt" class="w-full" />
           <img :src="about.images[3].src" :alt="about.images[3].alt" class="w-full" />
         </div>
